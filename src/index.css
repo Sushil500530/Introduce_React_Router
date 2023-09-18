@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.navbar{
+    background-color: #01784e;
+    padding: 5px 12px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar a{
+    margin: 0px 10px;
+    font-size: 20px;
+    text-decoration: none;
+    color: azure;
+  
+}
+.navbar a:hover{
+    color: black;
+   transition: .3s ;
+}

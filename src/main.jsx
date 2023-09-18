@@ -1,6 +1,5 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
 import './index.css'
 import {
   createBrowserRouter,
@@ -9,7 +8,11 @@ import {
 import Home from './components/Home/Home.jsx';
 import About from './components/About/About.jsx';
 import Contact from './components/Contact/Contact.jsx';
-import Header from './components/Header/Header.jsx';
+import Result from './components/Result/Result.jsx';
+import Information from './components/Information/Information.jsx';
+import Blog from './components/Blog/Blog.jsx';
+import Users from './components/Users/Users';
+
 
 
 const router =  createBrowserRouter([
@@ -25,6 +28,22 @@ const router =  createBrowserRouter([
         path: '/contact',
         element: <Contact></Contact>
       },
+      {
+        path: '/result', 
+        element: <Result></Result>
+      },
+      {
+        path: '/information', 
+        element: <Information></Information>
+      },
+      {
+        path: '/blog', 
+        element: <Blog></Blog>
+      },
+      {
+        path:  '/users',
+        element: <Users></Users>
+      }
     ]
   },
 
