@@ -18,5 +18,13 @@
 }
 .navbar a:hover{
     color: black;
-   transition: .3s ;
+    transition: .3s ;
+}
+.navbar a.active{
+    align-items: center;
+    padding: 3px 20px;
+    color: black;
+    border-radius: 5px;
+    background-color: #8c8b8b;
+
 }

@@ -15,7 +15,7 @@ const Users = () => {
         <div className='text-center'>
             <h3 className='text-3xl'>Our Users: {users.length}</h3>
             <p>any user is valuable person but they connot think above one</p>
-            <div className="flex gap-5 flex-wrap justify-center">
+            <div className="flex flex-wrap justify-center">
                 {
                     users.map(user => <User key={user.id} user={user}
                     ></User>)
